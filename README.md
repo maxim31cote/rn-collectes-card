@@ -49,12 +49,12 @@ La carte affiche :
 ```yaml
 type: custom:rn-collectes-card
 entities:
-  - sensor.5056_dechets
-  - sensor.5056_recuperation
-  - sensor.5056_compost
-  - sensor.5056_encombrants
-  - sensor.5056_residus_verts
-  - sensor.5056_arbre_de_noel
+  - sensor.VOTRE_NUMERO_dechets
+  - sensor.VOTRE_NUMERO_recuperation
+  - sensor.VOTRE_NUMERO_compost
+  - sensor.VOTRE_NUMERO_encombrants
+  - sensor.VOTRE_NUMERO_residus_verts
+  - sensor.VOTRE_NUMERO_arbre_de_noel
 ```
 
 ### Configuration multi-adresse
@@ -62,8 +62,8 @@ entities:
 ```yaml
 type: custom:rn-collectes-card
 entities:
-  - sensor.5056_dechets
-  - sensor.5056_recuperation
+  - sensor.VOTRE_NUMERO_dechets
+  - sensor.VOTRE_NUMERO_recuperation
   - sensor.1234_dechets
   - sensor.1234_recuperation
 ```
@@ -85,8 +85,8 @@ La carte s'adapte automatiquement au thème Home Assistant (clair/sombre).
 type: custom:rn-collectes-card
 title: Mes Collectes
 entities:
-  - sensor.5056_dechets
-  - sensor.5056_recuperation
+  - sensor.VOTRE_NUMERO_dechets
+  - sensor.VOTRE_NUMERO_recuperation
 ```
 
 ## 🐛 Dépannage
@@ -117,9 +117,9 @@ entities:
 type: custom:rn-collectes-card
 title: 🗑️ Prochaines Collectes
 entities:
-  - sensor.5056_dechets
-  - sensor.5056_recuperation
-  - sensor.5056_compost
+  - sensor.VOTRE_NUMERO_dechets
+  - sensor.VOTRE_NUMERO_recuperation
+  - sensor.VOTRE_NUMERO_compost
 ```
 
 ### Dans une vue avec d'autres cartes
@@ -130,12 +130,12 @@ views:
     cards:
       - type: custom:rn-collectes-card
         entities:
-          - sensor.5056_dechets
-          - sensor.5056_recuperation
+          - sensor.VOTRE_NUMERO_dechets
+          - sensor.VOTRE_NUMERO_recuperation
       
       - type: calendar
         entities:
-          - calendar.5056_calendrier
+          - calendar.VOTRE_NUMERO_calendrier
 ```
 
 ## 🔄 Mises à jour
