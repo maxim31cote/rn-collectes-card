@@ -1,0 +1,8 @@
+{
+  "name": "RN Collectes Card",
+  "version": "1.0.0",
+  "description": "Custom Lovelace card pour afficher les collectes de Rouyn-Noranda",
+  "author": "maxim31cote",
+  "license": "MIT",
+  "repository": "https://github.com/maxim31cote/rn-collectes-card"
+}
